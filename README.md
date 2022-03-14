@@ -43,7 +43,7 @@ c) Have your students or team members clone your forked repository (not the orig
 
 **Both students and instructors:**
 
-To load and watch the website live, run the following command:
+To load and watch the website live, un the following cormmand:
 
 ```bash
 $ npx http-server --yes -c-1
