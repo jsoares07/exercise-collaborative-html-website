@@ -1,15 +1,25 @@
-<h1>Contact</h1>
-<div><p>
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-</p></div>
-<form>
-    <div class="form-group">
-      <label for="email"><strong>Your Email</strong></label>
-      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email">
-    </div>
-    <div class="form-group">
-      <label for="message"><strong>Your message</strong></label>
-      <textarea id="w3review" name="w3review" placeholder="Please enter you message here..." style="width: 500px; height: 150px;"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+<div class="container contact">
+  <hr>
+  <div class="row pt-5">
+      <h3 class="display-3">Contact</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat, libero sed auctor dapibus, magna massa vestibulum augue, a ornare.</p>
+          <form class="w-75 pb-5">
+              <div class="form-group row pt-2">
+                  <label for="email" class="col-4 col-form-label text-end">Your Email</label>
+                  <div class="col-8">
+                      <input type="email" class="form-control" id="email" placeholder="Your Email">
+                  </div>
+              </div>
+              <div class="form-group row pt-2">
+                  <label for="inputPassword3" class="col-4 col-form-label text-end">Your Message</label>
+                  <div class="col-8">
+                      <input type="text" class="form-control" id="message"
+                          placeholder="Please enter your message here...">
+                  </div>
+              </div>
+              <div class="submit">
+              <button class="btn btn-lg btn-primary">Submit</button>
+              </div>
+          </form>
+  </div>
+</div>
